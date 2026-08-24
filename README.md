@@ -1,4 +1,4 @@
-# MohuanLED (BJ-LED-HA)
+# MohuanLED_HA
 
 A custom Home Assistant integration for `BJ_LED` Bluetooth LED strips,
 controlled by the MohuanLED app.
@@ -52,7 +52,7 @@ in the original 8none1/bj_led project.
 ## Installing via HACS
 
 Add this repo as a HACS custom repository
-(`https://github.com/Tech-Morph/BJ-LED-HA`), category "Integration", then
+(`https://github.com/Tech-Morph/MohuanLED_HA`), category "Integration", then
 install and add it the same way as above. A tagged GitHub release (e.g.
 `v0.1.0`) is needed for HACS to fully recognize and install the repo.
 
