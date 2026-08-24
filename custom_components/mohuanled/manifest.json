@@ -1,0 +1,16 @@
+{
+  "domain": "mohuanled",
+  "name": "MohuanLED",
+  "codeowners": ["@Tech-Morph"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/Tech-Morph/BJ-LED-HA",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/Tech-Morph/BJ-LED-HA/issues",
+  "requirements": ["bleak-retry-connector>=3.4.0"],
+  "version": "0.1.0",
+  "bluetooth": [
+    { "local_name": "BJ_LED*" }
+  ]
+}
